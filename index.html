@@ -1,11 +1,42 @@
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top:50px;
+        }
+        #bigButton{background-color:rgb(46, 218, 46);
+            color:white;
+            width:150px;
+            height:40px;
+            font-size:24px;
+            border:none;
+            border-radius:10px}
+            button{background-color:white;
+                color:black;
+                width:150px;
+                height:40px}
+
+
+    </style>
 </head>
 <body>
-    Hello , World !
+    <h2> Login  | <span style="color:rgb(46, 224, 46)">Register</span></h2>
+    <p>Enter your email and password to register.</p>
+    <form>
+        <input type="text" placeholder="Username"><br><br>
+        <input type="text" placeholder="Enter your email address"><br><br>
+        <input type="password" placeholder="Password"><br><br>
+        <input type="password" placeholder="Confirm password"><br><br>
+        <button id="bigButton">Register</button>
+    </form>
+    <p>Or register with</p>
+    <button>Google</button><br>
+    <button>Facebook</button>
 </body>
 </html>
