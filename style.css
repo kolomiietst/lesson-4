@@ -1,0 +1,109 @@
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+}
+
+.container{
+    width:1200px;
+    margin:0 auto;}
+
+.header{
+    padding:25px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.logo,
+.menu,
+.login{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.logo{
+    width:200px;
+    color:#46A358;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.menu{
+    width:700px;
+    text-align:center;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#3D3D3D;
+    margin:0 20px;
+}
+
+.login{
+    display:inline-block;
+    vertical-align:middle;
+    padding-top:10px;
+    width:250px;
+    text-align:right;
+}
+
+.login a{
+    text-decoration:none;
+    background:#46A358;
+    color:white;
+    padding:10px 25px;
+    border-radius:5px;
+}
+
+.hero{
+    margin-top:40px;
+    background:#F5F5F5;
+    padding:50px;
+}
+
+.left,
+.right{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.left{
+    width:560px;
+}
+
+.right{
+    width:500px;
+    text-align:right;
+}
+
+.left h1{
+    font-size:56px;
+    margin:20px 0;
+}
+
+.left span{
+    color:#46A358;
+}
+
+.left p{
+    color:#727272;
+    margin-bottom:25px;
+    line-height:24px;
+}
+
+.button{
+    display:inline-block;
+    background:#46A358;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.right img{
+    width:420px;
+}
